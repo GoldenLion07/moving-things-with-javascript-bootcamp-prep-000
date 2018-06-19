@@ -6,4 +6,8 @@ dodger.style.backgroundColor = "#FF69B4"
 
 dodger.style.left
 
-dodger.style.bottom = '100px'
+dodger.style.bottom = '0px'
+
+document.addEventListener('keydown', function(e) {
+  console.log(e.which)
+})
